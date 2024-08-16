@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+    
+}
+img{
+    width: 100% ;
+    height: 50vh;
+}
+
+.text{
+    padding: 3em;
+}
+p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 1em;
+    
+}
+@media screen and (max-width:576px) {
+    section{
+        display: flex;
+        flex-direction: column;    
+    } 
+}
